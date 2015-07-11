@@ -1,0 +1,24 @@
+{
+  "name": "dominance",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ksons/dominance.git"
+  },
+  "author": "Kristian Sons",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ksons/dominance/issues"
+  },
+  "homepage": "https://github.com/ksons/dominance",
+  "dependencies": {
+    "analyses": "^0.2.1",
+    "esgraph": "^0.1.1",
+    "esprima": "^1.0.4"
+  }
+}
