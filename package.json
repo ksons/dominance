@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node ./node_modules/mocha/bin/mocha -R spec --harmony"
+    "test": "node ./node_modules/mocha/bin/mocha -R spec --harmony",
+    "coverage": "node --harmony ./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- -R spec "
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
     "analyses": "^0.2.1"
   },
   "devDependencies": {
+    "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
   }
 }
