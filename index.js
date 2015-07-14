@@ -1,6 +1,5 @@
 var worklist = require("analyses");
 var Set = worklist.Set;
-var Queue = worklist.Queue;
 
 var dominance = function (cfg) {
     return worklist(cfg, function (input, list) {
