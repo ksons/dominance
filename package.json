@@ -21,6 +21,7 @@
     "analyses": "^0.2.1"
   },
   "devDependencies": {
+    "coveralls": "^2.11.2",
     "istanbul": "^0.3.17",
     "mocha": "^2.2.5"
   }
